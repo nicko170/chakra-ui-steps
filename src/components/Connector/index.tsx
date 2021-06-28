@@ -57,6 +57,7 @@ export const Connector = React.memo(
           borderTopWidth: isLastStep || isVertical ? 0 : '2px',
           borderLeftWidth: isLastStep || !isVertical ? 0 : '2px',
           minHeight: isLastStep || !isVertical ? 'auto' : '1.5rem',
+          width: "100%",
         }}
         initial={{
           borderColor: rawInitialColor,
