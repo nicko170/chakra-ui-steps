@@ -201,6 +201,7 @@ export const Step = forwardRef<StepProps, 'div'>(
             isVertical={isVertical}
             isCompletedStep={isCompletedStep || false}
             hasLabel={!!labelProp || !!descriptionProp}
+            w='100%'
           >
             <Collapse style={{ width: '100%' }} in={isCurrentStep}>
               {children}
